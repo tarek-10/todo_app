@@ -1,0 +1,24 @@
+.container {
+    min-height: 70vh;
+    width: 50vw;
+    background-color: #1c1a23;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3),
+        -5px -5px 12px rgba(117, 108, 147, 0.1);
+    border-top: 1px solid #c5396d;
+    border-bottom: 1px solid #030203;
+    border-radius: 7px;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 850px) {
+    .container {
+        width: 75vw;
+    }
+}
+
+@media (max-width: 450px) {
+    .container {
+        width: 90vw;
+    }
+}

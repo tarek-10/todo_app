@@ -1,0 +1,52 @@
+.todo_form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 3px 4px 3px 4px #424047;
+    background-color: #1c1a23;
+}
+
+.todos_form_icon {
+    margin-left: .6rem;
+    cursor: pointer;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    color: #a8a3ba;
+    padding-right: 1.11rem;
+
+}
+
+.todos_form_form {
+    flex: 1;
+    display: flex;
+    align-items: center
+}
+
+.todos_form_form input {
+    outline: none;
+    flex: 1;
+    width: 90%;
+    height: 3rem;
+    padding: 0.5rem 0.75rem;
+    background-color: #424047;
+    border: none;
+    font-size: 1.25rem;
+    color: #dddce3;
+    font-family: "Almarai", "Segoe UI", sans-serif;
+}
+
+.btn {
+    min-height: 3rem;
+    font-size: 1.25rem;
+    font-family: inherit;
+    padding: 0.5rem 1.5rem;
+    background-color: #fb4d8d !important;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.233);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+
+}

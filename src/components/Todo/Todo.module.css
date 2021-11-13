@@ -1,0 +1,61 @@
+/*  ------ todo style ------- */
+.todos_todo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #1c1a23;
+    padding: 1.25rem 1rem;
+    transition: all 0.3s;
+}
+
+.todos_todo:hover {
+    background-color: #2f2b3b;
+}
+
+.todos_todo_icon {
+    color: #a8a3ba;
+    cursor: pointer;
+}
+
+.todos_todo_text {
+    flex: 1;
+    margin: 0 1rem;
+    vertical-align: top;
+    color: #fff;
+    text-align: right;
+}
+
+.todos_todo_cta {
+    display: flex;
+    align-items: center;
+}
+
+.todos_todo_cta_edit {
+    color: #ffcc70;
+    cursor: pointer;
+}
+
+.todos_todo_cta_delete {
+    margin-right: 1rem;
+    color: #fb4d8d;
+    cursor: pointer;
+}
+
+.todos_todo_cta>div {
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.todos_todo:hover .todos_todo_cta>div {
+    opacity: 1;
+}
+
+.todos_todo.done .todos_todo_icon {
+    color: #4ef59d;
+}
+
+.todos_todo.done .todos_todo_text {
+    text-decoration: line-through;
+    color: #a8a3ba;
+}
